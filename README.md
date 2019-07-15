@@ -6,7 +6,7 @@
 
 <br>
 <div align="center">
-    <img src="pics/bookcut.jpg" width="300">
+    <img src="pics/bookcut.jpg" width="400">
 </div>
 <br>
 
