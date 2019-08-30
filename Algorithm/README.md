@@ -114,5 +114,9 @@
 
         + 如下图初始蚂蚁头朝向情况所示：
         <div align="center">
-            <img src="pics/ant-q1.jpg" width=1000>
+            <img src="pics/ant-q1.jpg" width=700>
         </div>
+
+        + 所以只需要 11 cm 处蚂蚁离开木杆，所有蚂蚁就都已离开。最短时间为：**[11 s](#answer)**
+
+    + **最大时间：** 当
