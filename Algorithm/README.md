@@ -123,12 +123,12 @@
 
         + 当两只蚂蚁碰头后，则它们会掉头继续前进。如下图所示：
         <div align="center">
-            <img src="pics/ant-q2.jpg" width=200>
+            <img src="pics/ant-q2.jpg" width=300>
         </div>
 
         + 这儿要充分利用等价思想，不要考虑单个蚂蚁的运动轨迹，我们只考虑整体的情况。左边蚂蚁与右边蚂蚁碰头后，左、右蚂蚁同时转向，如果只考虑整体的运动轨迹，那么我们等价转向后的蚂蚁运动是与它碰头那只蚂蚁的下一步动作。如下图所示：
         <div align="center">
-            <img src="pics/ant-q3.jpg" width=200>
+            <img src="pics/ant-q3.jpg" width=320>
         </div>
 
         + 所以最大距离为第 3 cm 处蚂蚁往右行走到木杆尽头的长度 24 cm。即最大时间为：**[24 s](#answer)**
