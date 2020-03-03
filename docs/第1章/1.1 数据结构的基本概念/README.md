@@ -15,5 +15,5 @@
 > XMind 源文件地址，[点击访问](/files/1/1.1.xmind)
 
 <div align="center">
-    <img src="/pics/1/1.1.png" width=1000>
+    <img src="/pics/1/1.1.png" width=100>
 </div>
