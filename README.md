@@ -504,7 +504,7 @@
 
 - [x] Github Repo 架构
 
-- [ ] 第 1 章&emsp;绪论
+- [x] 第 1 章&emsp;绪论
 
 - [ ] 第 2 章&emsp;线性表
 
