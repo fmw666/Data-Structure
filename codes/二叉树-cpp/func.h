@@ -1,5 +1,6 @@
 #pragma once
 #include "struct.h"
+#include <stdlib.h>
 
 void insert(BiTree &T,TElemType x)
 {
@@ -16,7 +17,7 @@ void insert(BiTree &T,TElemType x)
     }
 }
 
-void CreateBiTree(BiTree &T)  //¹¹½¨¶ş²æÊ÷T
+void CreateBiTree(BiTree &T)  //æ„å»ºäºŒå‰æ ‘T
 {
     TElemType x;
     T = NULL;
@@ -27,7 +28,7 @@ void CreateBiTree(BiTree &T)  //¹¹½¨¶ş²æÊ÷T
     }
 }
 
-void PreOrderTraverse(BiTree T)          //¶ş²æÊ÷ÏÈĞò±éÀú
+void PreOrderTraverse(BiTree T)          //äºŒå‰æ ‘å…ˆåºéå†
 {
     if (T) {
         cout << T->data << " ";
@@ -36,7 +37,7 @@ void PreOrderTraverse(BiTree T)          //¶ş²æÊ÷ÏÈĞò±éÀú
     }
 }
 
-void InOrderTraverse(BiTree T)         //¶ş²æÊ÷ÖĞĞò±éÀú
+void InOrderTraverse(BiTree T)         //äºŒå‰æ ‘ä¸­åºéå†
 {
     if (T) {
         PreOrderTraverse(T->lchild);
@@ -45,7 +46,7 @@ void InOrderTraverse(BiTree T)         //¶ş²æÊ÷ÖĞĞò±éÀú
     }
 }
 
-void PostOrderTraverse(BiTree T)         //¶ş²æÊ÷ºóĞò±éÀú
+void PostOrderTraverse(BiTree T)         //äºŒå‰æ ‘ååºéå†
 {
     if (T) {
         PreOrderTraverse(T->lchild);
@@ -54,11 +55,11 @@ void PostOrderTraverse(BiTree T)         //¶ş²æÊ÷ºóĞò±éÀú
     }
 }
 
-void LevelOrderTraverse(BiTree T)        //¶ş²æÊ÷²ã´Î±éÀú
+void LevelOrderTraverse(BiTree T)        //äºŒå‰æ ‘å±‚æ¬¡éå†
 {
 }
 
-int tree_depth(BiTree T)               //Çó¶ş²æÊ÷TµÄÉî¶È
+int tree_depth(BiTree T)               //æ±‚äºŒå‰æ ‘Tçš„æ·±åº¦
 {
     int lh,rh,h;
     if (!T)
@@ -74,7 +75,7 @@ int tree_depth(BiTree T)               //Çó¶ş²æÊ÷TµÄÉî¶È
     return h;
 }
 
-int count_n(BiTree T)                   //Çó¶ş²æÊ÷µÄ½áµã×ÜÊı
+int count_n(BiTree T)                   //æ±‚äºŒå‰æ ‘çš„ç»“ç‚¹æ€»æ•°
 {
     int num, num1, num2;
     if (!T)
@@ -87,7 +88,7 @@ int count_n(BiTree T)                   //Çó¶ş²æÊ÷µÄ½áµã×ÜÊı
     return num;
 }
 
-int CountSingle(BiTree T)            //Çó¶ş²æÊ÷µ¥·ÖÖ§½ÚµãµÄÊıÄ¿
+int CountSingle(BiTree T)            //æ±‚äºŒå‰æ ‘å•åˆ†æ”¯èŠ‚ç‚¹çš„æ•°ç›®
 {
     int num, num1, num2;
     if ((!T) || (!T->lchild) && (!T->rchild))
